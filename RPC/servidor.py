@@ -5,6 +5,12 @@ import Pyro4
 class CalculadoraRemota:
     def somar(self, a, b):
         return a + b
+    
+    def subtrair(self, a, b):
+        return a - b
+    
+    def multiplicar(self, a, b):
+        return a * b
 
 # Iniciar o servidor Pyro
 def main():
